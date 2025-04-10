@@ -23,7 +23,6 @@ export const LoginButton = ({ children, mode = "redirect", asChild }: LoginButto
             </span>
         )
     }
-
            return (
             <span
             onClick={onClick} className="cursor-pointer">

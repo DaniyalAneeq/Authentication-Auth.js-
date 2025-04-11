@@ -144,7 +144,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Auth.js\\Authentication-Auth.js-\\prisma\\generated\\client",
+      "value": "D:\\Authentication\\Authentication-Auth.js-\\prisma\\generated\\client",
       "fromEnvVar": null
     },
     "config": {
@@ -158,7 +158,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Auth.js\\Authentication-Auth.js-\\prisma\\schema.prisma",
+    "sourceFilePath": "D:\\Authentication\\Authentication-Auth.js-\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -172,12 +172,11 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "value": "postgresql://neondb_owner:npg_nmbKv79eQdIu@ep-super-resonance-a16s9cjf-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
       }
     }
   },

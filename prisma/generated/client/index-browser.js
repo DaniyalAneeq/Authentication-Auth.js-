@@ -142,6 +142,20 @@ exports.Prisma.AccountScalarFieldEnum = {
   session_state: 'session_state'
 };
 
+exports.Prisma.VerificationTokenScalarFieldEnum = {
+  id: 'id',
+  email: 'email',
+  token: 'token',
+  expires: 'expires'
+};
+
+exports.Prisma.PasswordResetTokenScalarFieldEnum = {
+  id: 'id',
+  email: 'email',
+  token: 'token',
+  expires: 'expires'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -163,7 +177,9 @@ exports.UserRole = exports.$Enums.UserRole = {
 
 exports.Prisma.ModelName = {
   User: 'User',
-  Account: 'Account'
+  Account: 'Account',
+  VerificationToken: 'VerificationToken',
+  PasswordResetToken: 'PasswordResetToken'
 };
 
 /**

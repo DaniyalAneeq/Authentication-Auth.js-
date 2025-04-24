@@ -48,3 +48,23 @@ model Account {
   @@unique([provider, providerAccountId])
   @@map("accounts")
 }
+
+// Model for sending verification email
+model VerificationToken {
+  id      String   @id @default(cuid())
+  email   String
+  token   String   @unique
+  expires DateTime
+
+  @@unique([email, token])
+}
+
+//Reset password model
+model PasswordResetToken {
+  id      String   @id @default(cuid())
+  email   String
+  token   String   @unique
+  expires DateTime
+
+  @@unique([email, token])
+}
